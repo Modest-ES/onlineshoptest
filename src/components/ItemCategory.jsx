@@ -15,11 +15,7 @@ export default function ItemCategory() {
                 {earbudsData.map(item => (
                     <Item
                         key={item.id}
-                        image={item.image}
-                        title={item.title}
-                        price={item.price}
-                        old_price={item.old_price}
-                        rating={item.rating}
+                        item={item}
                     />
                 ))}
             </div>
@@ -28,11 +24,7 @@ export default function ItemCategory() {
                 {wirelessEarbudsData.map(item => (
                     <Item
                         key={item.id}
-                        image={item.image}
-                        title={item.title}
-                        price={item.price}
-                        old_price={item.old_price}
-                        rating={item.rating}
+                        item={item}
                     />
                 ))}
             </div>

@@ -8,13 +8,13 @@ import ItemCategory from '../ItemCategory.jsx';
 import Footer from '../Footer.jsx';
 
 export default function Main() {
-    return(
-        <div className={styles.shell}>
-            <Header />
-            <div className={styles.content}>
-                <ItemCategory />
-            </div>
-            <Footer />
+  return (
+      <div className={styles.shell}>
+        <Header />
+        <div className={styles.content}>
+          <ItemCategory />
         </div>
-    );
+        <Footer />
+      </div>
+  );
 };
