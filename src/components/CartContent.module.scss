@@ -3,19 +3,20 @@
     margin-bottom: 25px;
 }
 
-.cart_left {
-    width: 60%;
-    margin-right: 10%;
+.cart_left, .cart_right {
+    transition: 0.3s;
     background: white;
     border-radius: 30px;
     box-shadow: 0px 0px 20px 0px #0000001A;
 }
 
+.cart_left {
+    width: 60%;
+    margin-right: 10%;
+}
+
 .cart_right {
     width: 30%;
-    background: white;
-    border-radius: 30px;
-    box-shadow: 0px 0px 20px 0px #0000001A;
     align-self: flex-start;
 }
 
@@ -78,6 +79,7 @@
     align-items: flex-end;
     gap: 180px;
     height: 100%; 
+    transition: 0.3s;
 }
 
 .delete_button {
@@ -129,5 +131,60 @@
         font-size: 17px;
         font-weight: 600;
         transition: 0.3s;
+    }
+}
+
+@media (max-width: 930px) {
+    .cart_left {
+        width: 66%;
+        margin-right: 1%;
+    }
+
+    .cart_right {
+        width: 33%;
+    }
+
+    .cart_item_right {
+        gap: 140px;
+    }
+}
+
+@media (max-width: 700px) {
+    .cart_left, .cart_right {
+        width: 100%;
+    }
+
+    .cart_left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .cart {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 455px) {
+    .cart_item_right {
+        gap: 90px;
+    }
+}
+
+@media (max-width: 390px) {
+    .cart_item_right {
+        gap: 10px;
+    }
+
+    .cart_item_left, .cart_item_main {
+        width: 100%;
+    }
+
+    .cart_item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart_item_left {
+        margin-bottom: 10px;
     }
 }

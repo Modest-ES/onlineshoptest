@@ -11,8 +11,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    transition: 0.3s;
 }
 
 .content {
     flex-grow: 1;
+}
+
+@media (max-width: 1500px) {
+    .shell {
+        width: 96%;
+        margin-left: 2%;
+    }
 }

@@ -21,7 +21,7 @@ export default function Item({ item }) {
         </div>
         <div className={styles.item_bottom_row}>
           <div className={styles.rating_field}>
-            <img src={star} alt='Rating' title='rating' />
+            <img src={star} alt='рейтинг' title='рейтинг товара' />
             <p className={styles.rating_number}>{item.rating}</p>
           </div>
           <h3 className={styles.buy_button} onClick={() => addToCart(item)}>Купить</h3>

@@ -18,9 +18,9 @@ export default function CartContent() {
             <div className={styles.cart_item_left}>
               <img src={item.image} alt={item.title} title={item.title} className={styles.cart_item_image} />
               <div className={styles.cart_item_count_row}>
-              <img src={plus} alt="-" title="-" onClick={() => decrementItem(item.id)} />
+              <img src={minus} alt="-" title="Уменьшить количество товаров" onClick={() => decrementItem(item.id)} />
                 <p className={styles.cart_item_count}>{item.quantity}</p>
-                <img src={plus} alt="+" title="+" onClick={() => incrementItem(item.id)}/>
+                <img src={plus} alt="+" title="Увеличить количество товаров" onClick={() => incrementItem(item.id)}/>
               </div>
             </div>
             <div className={styles.cart_item_main}>
@@ -29,7 +29,7 @@ export default function CartContent() {
                 <p>{item.price} ₽</p>
               </div>
               <div className={styles.cart_item_right}>
-                <img src={delete_icon} alt="delete" title="delete" onClick={() => removeFromCart(item.id)}/>
+                <img src={delete_icon} alt="Удалить" title="Удалить товар" onClick={() => removeFromCart(item.id)}/>
                 <h3>{item.price * item.quantity} ₽</h3>
               </div>
             </div>

@@ -27,16 +27,16 @@ export default function Footer() {
                     <p>Условия сервиса</p>
                 </Link>
                 <div className={styles.language_options}>
-                    <img src={language}/>
+                    <img src={language} alt="Язык" title="Язык"/>
                     <p>Каз</p>
                     <p className={styles.chosen_option}>Рус</p>
                     <p>Eng</p>
                 </div>
             </div>
             <div className={styles.social_links}>
-                <a href="https://vk.com" target='_blank'><img src={vk} /></a>
-                <a href="https://web.telegram.org/" target='_blank'><img src={telegram} /></a>
-                <a href="https://web.whatsapp.com/" target='_blank'><img src={whatsapp} /></a>
+                <a href="https://vk.com" target='_blank' rel="noreferrer"><img src={vk} alt="VK" title="VK" /></a>
+                <a href="https://web.telegram.org/" target='_blank' rel="noreferrer"><img src={telegram} alt="Telegram" title="Telegram" /></a>
+                <a href="https://web.whatsapp.com/" target='_blank' rel="noreferrer"><img src={whatsapp} alt="WhatsApp" title="WhatsApp" /></a>
                 
             </div>
         </footer>

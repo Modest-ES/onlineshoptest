@@ -18,12 +18,12 @@ export default function Header() {
       </Link>
       <div className={styles.header_right}>
         <div className={styles.favorites}>
-          <img src={favorites} alt="Favorites" />
+          <img src={favorites} alt="Избранное" title="Избранное" />
           <ItemCount amount={2} />
         </div>
         <Link to='/cart'>
           <div className={styles.cart}>
-            <img src={cart_icon} alt="Cart" />
+            <img src={cart_icon} alt="Корзина" title="Корзина"/>
             <ItemCount amount={totalItems} />
           </div>
         </Link>
