@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    font-family: 'Montserrat', system-ui, Tahoma, sans-serif;
+    box-sizing: border-box;
+  
+    ::selection {
+      background: rgba(255, 165, 66, 0.5);
+    }
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+  
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.5s ease;
+}
+  
+a {
+    text-decoration: none;
+    color: rgb(255, 165, 66);
+}
+
+button {
+    background: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+p {
+    font-size: 0.875rem;
+    font-family: 'Montserrat', system-ui, sans-serif;
+    color: rgb(16, 16, 16);
+}
+
+@mixin noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}

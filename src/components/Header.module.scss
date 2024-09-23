@@ -1,0 +1,42 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.title {
+    color: rgb(16, 16, 16);
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.favorites, .cart {
+    padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.favorites, .cart {
+    height: 65px;
+}
+
+.favorites:hover, .cart:hover, .title:hover {
+    transform: scale(1.1);
+}

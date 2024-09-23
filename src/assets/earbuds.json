@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "../img/earbud1.png",
+        "title": "Apple BYZ SB521",
+        "price": 2927,
+        "old_price": 3527,
+        "rating": 4.7
+    },
+    {
+        "id": 2,
+        "image": "../img/earbud2.png",
+        "title": "Apple EarPods",
+        "price": 2327,
+        "old_price": 2327,
+        "rating": 4.5
+    },
+    {
+        "id": 3,
+        "image": "../img/earbud3.png",
+        "title": "Apple EarPods",
+        "price": 2327,
+        "old_price": 2327,
+        "rating": 4.5
+    },
+    {
+        "id": 4,
+        "image": "../img/earbud1.png",
+        "title": "Apple BYZ SB521",
+        "price": 2927,
+        "old_price": 2927,
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "image": "../img/earbud2.png",
+        "title": "Apple EarPods",
+        "price": 2327,
+        "old_price": 2327,
+        "rating": 4.5
+    },
+    {
+        "id": 6,
+        "image": "../img/earbud3.png",
+        "title": "Apple EarPods",
+        "price": 2327,
+        "old_price": 2327,
+        "rating": 4.5
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "../img/wireless1.png",
+        "title": "Apple AirPods",
+        "price": 9527,
+        "old_price": 9527,
+        "rating": 4.7
+    },
+    {
+        "id": 2,
+        "image": "../img/wireless2.png",
+        "title": "GERLAX GH-04",
+        "price": 6527,
+        "old_price": 6527,
+        "rating": 4.7
+    },
+    {
+        "id": 3,
+        "image": "../img/wireless3.png",
+        "title": "BOROFONE BO4",
+        "price": 7527,
+        "old_price": 7527,
+        "rating": 4.7
+    }
+]
